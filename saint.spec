@@ -5,10 +5,6 @@ Version:	3.3.3
 Release:	1
 License:	Free for non-commercial use
 Group:		Networking/Utilities
-Group(de):	Netzwerkwesen/Werkzeuge
-Group(es):	Red/Utilitarios
-Group(pl):	Sieciowe/Narzêdzia
-Group(pt_BR):	Rede/Utilitários
 Source0:	http://www.wwdsi.com/saint/downloads/%{name}-%{version}.tar.gz
 Source1:	%{name}.sh
 URL:		http://www.wwdsi.com/saint/
