@@ -38,7 +38,7 @@ zagro¿eñ na 4 grupy oraz obs³ugê przez rozbudowany interfejs HTML.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_libdir}/%{name},%{_mandir}/man1,%{_sbindir}}
 
-cp -a {saint,bin,config,html,perl,perllib,rules,scripts} \
+cp -a saint bin config html perl perllib rules scripts \
 	$RPM_BUILD_ROOT%{_libdir}/%{name}
 
 install saint.1 $RPM_BUILD_ROOT%{_mandir}/man1
