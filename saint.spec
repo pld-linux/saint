@@ -28,7 +28,7 @@ zagro¿eñ na 4 grupy oraz obs³ugê przez rozbudowany interfejs HTML.
 %setup -q
 
 %build
-autoconf
+%{__autoconf}
 %configure
 %{__make}
 
