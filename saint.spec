@@ -1,5 +1,5 @@
 Summary:	Security Administrator's Integrated Network Tool
-Summary(pl):	Zintegrowan narzêdzie sieciowe administratora bezpieczeñstwa
+Summary(pl):	Zintegrowane narzêdzie sieciowe administratora bezpieczeñstwa
 Name:		saint
 Version:	3.3.3
 Release:	1
