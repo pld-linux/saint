@@ -5,8 +5,9 @@ Version:	3.3.3
 Release:	1
 License:	Free for non-commercial use
 Group:		Networking/Utilities
-Source0:	http://www.wwdsi.com/saint/downloads/%{name}-%{version}.tar.gz
-# Source0-md5:	b9f6c6e23582b4dd29fe2c8dbc0c0cdf
+#Source0:	http://www.saintcorporation.com/saint/downloads/%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
+# Source0-md5:	3e79987721595e03d2662066a63c2296[A
 Source1:	%{name}.sh
 URL:		http://www.wwdsi.com/saint/
 BuildRequires:	autoconf
