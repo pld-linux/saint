@@ -1,4 +1,5 @@
 Summary:	Security Administrator's Integrated Network Tool
+Summary(pl):	Zintegrowan narzêdzie sieciowe administratora bezpieczeñstwa
 Name:		saint
 Version:	3.3.3
 Release:	1
@@ -11,6 +12,7 @@ Group(pt_BR):	Rede/Utilitários
 Source0:	http://www.wwdsi.com/saint/downloads/%{name}-%{version}.tar.gz
 Source1:	%{name}.sh
 URL:		http://www.wwdsi.com/saint/
+BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -41,9 +43,9 @@ install -d $RPM_BUILD_ROOT{%{_libdir}/%{name},%{_mandir}/man1,%{_sbindir}}
 cp -a {saint,bin,config,html,perl,perllib,rules,scripts} \
 	$RPM_BUILD_ROOT%{_libdir}/%{name}
 	
-cp saint.1 $RPM_BUILD_ROOT%{_mandir}/man1/
+install saint.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
-cp %{SOURCE1} $RPM_BUILD_ROOT%{_sbindir}/%{name}
+install %{SOURCE1} $RPM_BUILD_ROOT%{_sbindir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
