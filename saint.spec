@@ -7,7 +7,7 @@ License:	Free for non-commercial use
 Group:		Networking/Utilities
 #Source0:	http://www.saintcorporation.com/saint/downloads/%{name}-%{version}.tar.gz
 Source0:	%{name}-%{version}.tar.gz
-# Source0-md5:	3e79987721595e03d2662066a63c2296[A
+# Source0-md5:	3e79987721595e03d2662066a63c2296
 Source1:	%{name}.sh
 URL:		http://www.saintcorporation.com/products/saint_engine.html
 BuildRequires:	autoconf
