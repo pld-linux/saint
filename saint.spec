@@ -6,6 +6,7 @@ Release:	1
 License:	Free for non-commercial use
 Group:		Networking/Utilities
 Source0:	http://www.wwdsi.com/saint/downloads/%{name}-%{version}.tar.gz
+# Source0-md5:	b9f6c6e23582b4dd29fe2c8dbc0c0cdf
 Source1:	%{name}.sh
 URL:		http://www.wwdsi.com/saint/
 BuildRequires:	autoconf
