@@ -50,13 +50,14 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_libdir}/%{name}/config/*
-%{_libdir}/%{name}/html/*
-%{_libdir}/%{name}/perl/*
-%{_libdir}/%{name}/perllib/*
-%{_libdir}/%{name}/rules/*
+%dir %{_libdir}/%{name}
+%{_libdir}/%{name}/config
+%{_libdir}/%{name}/html
+%{_libdir}/%{name}/perl
+%{_libdir}/%{name}/perllib
+%{_libdir}/%{name}/rules
 %attr(755,root,root) %{_libdir}/%{name}/%{name}
-%attr(755,root,root) %{_libdir}/%{name}/bin/*
-%attr(755,root,root) %{_libdir}/%{name}/scripts/*
+%attr(755,root,root) %{_libdir}/%{name}/bin
+%attr(755,root,root) %{_libdir}/%{name}/scripts
 %attr(755,root,root) %{_sbindir}/%{name}
 %{_mandir}/man1/*
