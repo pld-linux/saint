@@ -1,5 +1,5 @@
 Summary:	Security Administrator's Integrated Network Tool
-Summary(pl):	Zintegrowane narzêdzie sieciowe administratora bezpieczeñstwa
+Summary(pl.UTF-8):   Zintegrowane narzÄ™dzie sieciowe administratora bezpieczeÅ„stwa
 Name:		saint
 Version:	3.3.3
 Release:	1
@@ -20,11 +20,11 @@ firewall, updated security checks from CERT & CIAC bulletins, 4 levels
 of severity (red, yellow, brown, & green) and a feature rich HTML
 interface.
 
-%description -l pl
-SAINT jest narzêdziem wspomagaj±cym kontrolê stanu bezpieczeñstwa
-wzorowanym na SATANie. Umo¿liwia skanowanie przez zapory ogniowe,
-testy bezpieczeñstwa oparte na biuletynach CERT i CIAC, podzia³
-zagro¿eñ na 4 grupy oraz obs³ugê przez rozbudowany interfejs HTML.
+%description -l pl.UTF-8
+SAINT jest narzÄ™dziem wspomagajÄ…cym kontrolÄ™ stanu bezpieczeÅ„stwa
+wzorowanym na SATANie. UmoÅ¼liwia skanowanie przez zapory ogniowe,
+testy bezpieczeÅ„stwa oparte na biuletynach CERT i CIAC, podziaÅ‚
+zagroÅ¼eÅ„ na 4 grupy oraz obsÅ‚ugÄ™ przez rozbudowany interfejs HTML.
 
 %prep
 %setup -q
